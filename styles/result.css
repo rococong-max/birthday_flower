@@ -1,0 +1,47 @@
+body {background-color:#000;}
+#wrap {
+    width:430px; height: 932px;
+    margin: 0 auto;
+    background-image:url(../imges/bg2.jpg);
+    background-size: 150% auto;
+    background-position: center bottom;
+    text-align: center;
+    padding-top: 100px;
+}
+#wrap #main_title  {
+    margin-bottom: 40px; /* #title + #contents */
+}
+#wrap #main_title p {
+    margin-bottom: 12px; /* p + h1 */
+    font-size:1.63rem;
+}
+#wrap #main_title h1 {
+    font-size: 1.25rem;
+    font-family: 'MaruBuri-B',serif;
+}
+#wrap .contents {
+    margin-bottom: 97px; /* #contents + button */
+}
+#wrap .contents p {}
+#wrap .contents .user_m {
+    margin-bottom: 14px;
+    font-style: italic;
+}
+#wrap .contents .result {
+    line-height: 1.32;
+    font-size: 1.13rem;
+}
+#wrap button,
+#wrap a {display: block;}
+#wrap button {
+    background-color: #000; color: #fff;
+    width: 230px; line-height: 40px; /* line-height - 버튼 내의 수직 중앙으로 맞춰줄 수 있음 (px값으로 작성) */
+    border-radius: 18px;
+    margin: 0 auto 12px;
+    font-size: 0.88rem;
+}
+#wrap button:hover {background-color: darkseagreen;}
+#wrap .back {
+    font-size: 0.75rem;
+}
+#wrap .back:hover {text-decoration: underline;}

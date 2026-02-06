@@ -1,3 +1,18 @@
+/* 웹글꼴 */
+@font-face {/* 설치 */
+    font-family: 'MaruBuri-R';/* 설치명(자유롭게 변경 가능) */
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2);/* 폰트 굵기가 정해져있는 경우임 */
+    font-weight: 400;
+    font-display: swap;/* 시스템적인 설정 */
+}
+@font-face {
+    font-family: 'MaruBuri-B';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2);
+    font-weight: 700;
+    font-display: swap;
+}
+/* 위와 같이 외부 css에 웹글꼴에 넣는 경우 link처럼 각 html에 연결하지 않아도 됨 
+ 주의할 점 : font-face는 글꼴을 불러오는 의미, 컴퓨터에 설치'만'하는 것과 같음 별도의 선택자에서 사용하는 것이 필요 */
 /* 모든 태그들에 대한 공통 초기값 세팅 */
 html,body,h1,h2,h3,h4,h5,h6,
 dl,dt,dd,ol,ul,li,p,blockquote,hr,div,video,address,
@@ -13,7 +28,7 @@ table,thead,tbody,tfoot,tr,td,th {
     font-weight:400; /* 피그마 글자 굵기 100 == regular */
     font-style:normal;
     color:#000;
-    font-family:'pretendard',sans-serif;
+    font-family:'MaruBuri-R',serif; /* 사용 */
 }
 /* 개별 태그 초기값 */
 a {text-decoration:none;}
