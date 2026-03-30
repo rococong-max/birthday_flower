@@ -37,10 +37,16 @@ body {background-color: #222;}
 #wrap #birthday_frm #user_day {
     margin-bottom: 40px;
 }
-#wrap #birthday_frm #result_btn {
+#wrap #birthday_frm #birthday_btn {
     background-color: #000;
     color:#fff;
     width:230px; height:40px;
     border-radius: 18px;
 }
-#wrap #birthday_frm #result_btn:hover {background-color: #555}
+#wrap #birthday_frm #birthday_btn:hover {background-color: #555}
+#wrap .error_msg {
+    font-size: 0.75rem; color:#f00;
+    font-family: '맑은 고딕', sans-serif;
+    line-height: 2; font-weight: 600;
+    display: none;
+}

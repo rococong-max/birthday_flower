@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./imges/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <div id="wrap">
@@ -20,8 +21,13 @@
             <input autofocus type="text" name="user_year" id="user_year" placeholder="year">
             <input type="text" name="user_month" id="user_month" placeholder="month">
             <input type="text" name="user_day" id="user_day" placeholder="day">
-            <button onclick="window.location.href='./result.html'" type="button" id="result_btn">나의 꽃과 꽃말 만나기</button>
+            <!-- <button onclick="window.location.href='./result.html'" type="button" id="birthday_btn">나의 꽃과 꽃말 만나기</button> -->
+            <button type="button" id="birthday_btn">나의 꽃과 꽃말 만나기</button>
         </form>
+        <p class="error_msg1 error_msg">태어난 년도를 입력해주세요.</p>
+        <p class="error_msg2 error_msg">태어난 달을 입력해주세요.</p>
+        <p class="error_msg3 error_msg">태어날 날을 입력해주세요.</p>
+        <p class="error_msg4 error_msg">숫자로만 입력해주세요.</p>
         <!-- <ol id="information">
             <li class="y">year</li>
             <li class="m">month</li>
